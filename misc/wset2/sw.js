@@ -1,4 +1,4 @@
-const CACHE = 'vinewise-l2-v3-fresh-navigation-1';
+const CACHE = 'vinewise-l2-v3-practice-completion-1';
 const scope = new URL(self.registration.scope);
 const index = new URL('index.html', scope);
 const assets = [index, ...['manifest.webmanifest', 'icon-192.png', 'icon-512.png'].map(path => new URL(path, scope))];
